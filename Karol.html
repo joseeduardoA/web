@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Karol Asistent</title>
+    <link rel="stylesheet" href="karlo.css">
+    <!--fuente de letra html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="R.png" type="image/png">
+</head>
+<body>
+    <video class="video-background" autoplay muted loop>
+        <source src="fondo2.mp4" type="video/mp4" autoplay >
+    </video>
+
+    <div class="barra_superior">
+        <img src="pikachu.png" class="pikachu" id="image" alt="Imagen" style="cursor: pointer;" title="has click aqui :3">
+        <div class="texto1">
+            
+            <h1>My virtual asistent Karol</h1>
+        </div>
+    </div>    
+        <div class="principal">        
+            <div class="centro"> 
+                <div class="chat-container">
+                <div id="chatbox" class="chatbox" title="Karol esta feliz de hablar contigo :3"></div>
+                <input type="text" id="userInput" class="user-input" placeholder="Escribe algo..." title="Escribe aqui :3"/>
+                <button onclick="sendMessage()" id="playButton" class="Enviar">Enviar</button>
+                </div>
+    
+            <div class="avatar-container">
+                <img id="avatarImage" src="Karolnormal.png" alt="Avatar" class="karol" title="Karol Monserrat Yesca San Pedro">    
+                <audio controls autoplay loop class="fondoaudio">
+                    <source src="fondo.mp3" type="audio/mp3">
+                </audio>      
+                <div class="boton">
+                    <a href='Mensaje _especial.html'><button class="botones" >Instruciones</button> </a>
+                    <a href='https://www.youtube.com/playlist?list=PLJm34JWAdgCrYv43aANverAhOO3fWHuVM'><button class="botones">Canciones</button> </a>
+                    
+                </div>
+                
+                
+            </div>   
+            
+            </div>
+<audio id="sound" src="pikachu.mp3"></audio>
+<audio id="audio" src="Karoltalk.mp3"></audio>
+    <script src="script1.js"></script>
+    <script src="avatar.js"></script>
+    </footer>
+
+</body>
+</html>
