@@ -1,0 +1,218 @@
+.video-background{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+/*demas elementos*/
+
+.principal{
+    display:flex;
+    justify-content:center;
+    padding: 10px 1px 3px 1px;
+    margin: 0px 200px 20px 200px;
+    background-color: transparent;
+}
+
+/*inicio de cabecera*/
+.barra_superior{
+    display:flex;
+    justify-content:center;
+    padding: -1px 00px -10px 0px;
+    margin: 0px 300px 20px 300px;
+    background-color: #31d4fdab;
+    border-radius: 20px;
+}
+.barra_superior:hover {
+    background-color: #ffffffb2;
+    
+}
+.texto1{
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    }
+
+/*fin de h1*/
+/*barras laterales*/
+.barra1{
+    float: right;
+    padding: 0px 0px 0px 100px;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+.barra2{
+        float: right;
+        padding: 0px 10px 0px 0px;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+.boton{
+    padding: 1px 0px 1px 0px;
+    margin: 0px 10px 0px 55px;
+    background:transparent; 
+    
+    }
+
+.botones{
+        padding: 10px 20px 10px 20px;
+        margin: 0px 10px 0px 10px;
+        border-radius: 30px;
+        justify-content:center;
+        border: transparent;
+        background-color: #00d9ffb4;
+        font-family: "Pixelify Sans", sans-serif;
+        }
+
+.botones:hover{
+        color: black;
+        background-color: rgba(255, 255, 255, 0.829);
+    }
+/*fin de barras laterales*/
+
+
+/*audio de fondo*/
+.fondoaudio{
+            align-items: center;
+            width: 300px;
+            background: transparent;
+            border-radius: 5px;
+            margin: 0px 10px 0px 50px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(241, 102, 167); /* Fondo gris */
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: #31d4fd;
+    border-radius: 100%; /* Botón de play personalizado */
+}
+.pikachu{
+    background:transparent;
+   
+    width: 100px;
+    height: 70px;
+    
+}
+
+
+
+
+
+.karol{
+    background:transparent;
+    float:right;
+    padding: 0px 0px 0px 0px ;
+    width: 410px;
+    
+}
+
+.avatar-container{
+    background:rgba(255, 255, 255, 0.295);
+    float:right;
+    padding: 0px 0px 0px 0px ;
+    width: 410px;
+    margin: 0px 10px 10px 10px;
+    border-color: #00eeff;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 5%;
+}
+
+
+.centro{
+    display:flex;
+    justify-content:center;
+    padding: -1px 00px -10px 0px;
+    margin: 0px 0px 20px;
+
+}
+
+
+
+
+.chat-container {
+    width: 400px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Caja de chat */
+.chatbox {
+    flex-grow: 1;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #00eeff;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 238, 255, 0.363);
+}
+
+/* Input de usuario */
+.user-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 238, 255, 0.363);
+    font-size: 16px;
+}
+
+
+input {
+    padding: 10px;
+    background-color: rgba(0, 238, 255, 0.363);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Enviar{
+    padding: 10px;
+    background-color:  rgba(0, 238, 255, 0.363);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efecto hover para el botón */
+.Enviar:hover {
+    background-color: #00d9ffb4;
+}
+
+
+/* Estilo para los mensajes */
+.message {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.user-message {
+    background-color: #ffffffbb;
+    text-align: right;
+}
+
+.bot-message {
+    background-color: rgba(0, 247, 255, 0.664);
+    text-align: left;
+}
